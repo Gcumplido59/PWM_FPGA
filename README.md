@@ -42,3 +42,8 @@ Conexiones de cables jumper
 
 │── README.md # Este archivo
 
+│── debouncer2.v # Módulo para eliminar ruido de los botones
+
+│── d_ff.v # Módulo que implementa el flip-flop tipo D
+
+│── clkdiv.v # Módulo que implementa el clock dvider para ajustar el tiempo de ejecución.
