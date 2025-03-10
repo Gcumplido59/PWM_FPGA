@@ -32,7 +32,7 @@ Conexiones de cables jumper
 
 /PWM
 
-│── PWM.v # Módulo principal que implementa las funciones.
+│── PWM_servo.v # Módulo principal que implementa las funciones.
 
 │── PWM_tb.v # Testbench para simulación
 
@@ -40,10 +40,10 @@ Conexiones de cables jumper
 
 │── PWM.qsf # Archivo de configuración del FPGA
 
-│── README.md # Este archivo
-
 │── debouncer2.v # Módulo para eliminar ruido de los botones
 
 │── d_ff.v # Módulo que implementa el flip-flop tipo D
 
 │── clkdiv.v # Módulo que implementa el clock dvider para ajustar el tiempo de ejecución.
+
+│── README.md # Este archivo
